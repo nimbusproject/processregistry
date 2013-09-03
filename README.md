@@ -15,7 +15,7 @@ the Django documentation site.
 Usage
 -----
 
-To query, the process registry, you can do GET/POST/PUT/DELETE against the
+To query, the process registry, you can do GET/POST/PUT/DELETE against
 
     /api/process_definition/ 
 
