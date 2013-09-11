@@ -94,14 +94,18 @@ The basic Process Definition format is a dictionary like the following:
 With the following parameters:
 
 **exec**: Path to the executable that should be run
+
 **application**: Reference to the application that this runs on. This is a DT in the DTRS, which includes the VM image it will run on, and the chef recipes / configuration that needs to be installed
 **process_type**: Type of process. Choose from:
 * *single*: a process that takes an input file, and produces an output (think gcc)
 * *service*: a process that runs for a long time
 
 **cwd**: Current working directory of executable
+
 **environment**: Environment variables that should be set for a process
+
 **argv**: List of arguments that should be passed to the process
+
 **input_adapter**: Defines a way of moving data from the messaging system to the process. A dictionary that can take the following parameters:
 * *input_type*: The type of input that the process expects, could be a single file that is read once, input to a port, appending to a file, writing to a unix pipe, etc.
 * *input_parameters*: Depends on the input type, but a dictionary of parameters to configure the input adapter
