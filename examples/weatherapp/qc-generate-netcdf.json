@@ -1,0 +1,6 @@
+{
+    "exec": "/root/app/weatherapp-master/qc-generate-netcdf.py",
+    "application": "weatherapp",
+    "process_type": "service",
+    "cwd": "/root/app/weatherapp-master/",
+}

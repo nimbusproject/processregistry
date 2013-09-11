@@ -1,0 +1,6 @@
+{
+    "exec": "/root/streams/sendphotostream2.py",
+    "application": "photostream",
+    "process_type": "single",
+    "cwd": "/root/streams/",
+}
