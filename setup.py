@@ -21,7 +21,7 @@ setup(name=name,
       packages=['processregistry', 'processregistry.registry'],
       include_package_data=True,
       package_data={'processregistry': []},
-      install_requires=["django >= 1.4", "django-tastypie"],
+      install_requires=["django >= 1.5", "django-tastypie", "mimeparse"],
       classifiers=[
           'Development Status :: 3 - Alpha',
           'Environment :: Console',
