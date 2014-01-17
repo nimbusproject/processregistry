@@ -1,0 +1,6 @@
+{
+    "exec": "/opt/hscalscripts/hs_transmit_dir",
+    "application": "hscal",
+    "process_type": "single",
+    "cwd": "/opt/sampledata",
+}

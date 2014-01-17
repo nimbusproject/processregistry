@@ -1,0 +1,10 @@
+{
+    "exec": "/opt/hscalscripts/hs_cloud_recieve",
+    "application": "hscal",
+    "process_type": "single",
+    "environment": {
+        "AWS_ACCESS_KEY_ID": "FIXME",
+        "AWS_SECRET_ACCESS_KEY": "FIXME"
+    },
+    "cwd": "/opt/sampledata",
+}
